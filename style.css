@@ -1,3 +1,4 @@
+
 h1{
     background-color: aquamarine;
 }
@@ -45,4 +46,162 @@ h1{
 
 body {
     background-color: #E3DEDD;
+}
+.first-container{
+    padding: 5px;
+}
+.first-container{
+    display: grid;
+    grid-template-columns: auto auto auto;    
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+    height: 450px;
+    gap: 8px;
+}
+.item1{   
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-image: url("../responsive-design/image/tips.png ");
+}
+.item2{
+    background-image: url("../responsive-design/image/oddi.png ");
+}
+.item3{
+    background-image: url("../responsive-design/image/watsapp.png ");
+}
+
+.second-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;    
+    position: relative;
+    margin-top: 70px;
+    border: 1px solid black;
+    text-align: center;
+    height: 450px;
+    gap: 13px;
+    padding: 50px;
+}
+.item4{
+    background-color: coral;
+}
+.item5{
+    background-color: darkgreen;
+}
+.item6{
+    background-color: coral;
+}
+.item7{
+    background-color: darkgreen;
+}
+.item8{
+    background-color: coral;
+}
+.item9{
+    background-color: darkgreen;
+}
+.item10{
+    background-color: coral;
+}
+.item11{
+    background-color: darkgreen;
+}
+
+.third-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;    
+    position: relative;
+    margin-top: 70px;
+    border: 1px solid black;
+    text-align: center;
+    height: 300px;
+    gap: 13px;
+    padding: 50px;
+}
+.item12{
+    background-color: darkgreen;
+}
+.item13{
+    background-color: coral;
+}
+.item14{
+    background-color: darkgreen;
+}
+.item15{
+    background-color: coral;
+}
+
+.fourth-container{
+    display: grid;
+    grid-template-columns: auto auto auto;    
+    position: relative;
+    margin-top: 70px;
+    border: 1px solid black;
+    text-align: center;
+    height: 1600px;
+    gap: 13px;
+    padding: 50px;
+}
+.item16{
+    background-color: darkgreen;
+}
+.item17{
+    background-color: coral;
+}
+.item18{
+    background-color: darkgreen;
+}
+.item19{
+    background-color: coral;
+}
+.item20{
+    background-color: darkgreen;
+}
+.item21{
+    background-color: coral;
+}
+.item22{
+    background-color: darkgreen;
+}
+.item23{
+    background-color: coral;
+}
+.item24{
+    background-color: coral;
+}
+
+.fifth-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;    
+    position: relative;
+    margin-top: 70px;
+    border: 1px solid black;
+    text-align: center;
+    height: 650px;
+    gap: 13px;
+    padding: 50px;
+}
+.item25{
+    background-color: darkgreen;
+}
+.item26{
+    background-color: coral;
+}
+.item27{
+    background-color: darkgreen;
+}
+.item28{
+    background-color: coral;
+}
+.item29{
+    background-color: darkgreen;
+}
+.item30{
+    background-color: coral;
+}
+.item31{
+    background-color: darkgreen;
+}
+.item32{
+    background-color: coral;
 }
