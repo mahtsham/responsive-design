@@ -1,3 +1,48 @@
 h1{
     background-color: aquamarine;
 }
+.ul1{
+    list-style-type: none;
+    color: antiquewhite;    
+    margin: 0px;
+    padding: 0px;
+    background-color: #131313;
+    overflow: hidden;
+    font-size: 13px;
+    font-weight: 500;
+    width: 100%;
+}
+.li1 {
+    float: left;
+    margin-left: 4px;
+    display: block;
+    padding: 8px;
+}
+.ul1 .li1 a:hover{
+    color: blanchedalmond;
+}
+.li1a {
+    float: right;
+    display: block;
+    padding: 8px;
+}
+.ul2{
+    list-style-type: none;
+    font-family: sans-serif;
+    color: #aaa;    
+    background-color: blanchedalmond;
+    margin: 0px;
+    padding: 10px 10px 0;
+    overflow: hidden;
+    font-size: 100%;
+    font-weight: 500;
+ }
+.li2 {
+    float: left;
+    display: block;
+    padding: 8px;
+}
+
+body {
+    background-color: #E3DEDD;
+}
